@@ -1,0 +1,15 @@
+name: tf_serving_ztdl
+channels:
+  - anaconda-fusion
+  - defaults
+dependencies:
+  - pip:
+    - flask
+    - flask-cors
+    - grpcio
+    - grpcio-tools
+    - keras
+    - h5py
+    - tensorflow
+    - gunicorn
+
