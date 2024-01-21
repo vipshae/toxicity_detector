@@ -1,0 +1,17 @@
+{
+  "name": "toxicity_detector_front",
+  "version": "1.0.0",
+  "description": "Detect toxicity levels in sentences using ML",
+  "main": "app.js",
+  "scripts": {
+    "dev": "next dev",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Vipul Sharma",
+  "license": "ISC",
+  "dependencies": {
+    "next": "^14.1.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}

@@ -49,7 +49,7 @@ def batch_generator(
 
 
 # read training csv data
-df = pd.read_csv('./data/toxic_comment_train.csv')
+df = pd.read_csv('../data/toxic_comment_train.csv')
 
 # set toxic level target classes
 targets = ['toxic', 'severe_toxic', 'obscene',
